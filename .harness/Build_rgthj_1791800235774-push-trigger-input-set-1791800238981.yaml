@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rgthj_1791800235774-push-trigger-input-set
+  identifier: Build_rgthj_1791800235774pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rgthj_1791800235774
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
