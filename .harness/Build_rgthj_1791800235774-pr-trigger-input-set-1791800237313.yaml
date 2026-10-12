@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rgthj_1791800235774-pr-trigger-input-set
+  identifier: Build_rgthj_1791800235774prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rgthj_1791800235774
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
