@@ -24,7 +24,7 @@ pipeline:
                   name: Agent_1
                   identifier: Agent_1
                   spec:
-                    agentName: ca_custionechoagent
+                    agentName: ca_ci_autofix
                     agentSettings: {}
           platform:
             os: Linux
